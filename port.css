@@ -1,0 +1,47 @@
+
+.card{
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all 0.3s;
+}
+
+.name{
+
+ color: white;
+  padding-left: 70px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma,Verdana, Tahoma, sans-serif, Verdana, sans-serif;
+  margin-bottom: 10px;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.card{
+box-shadow: 0 0 10px;
+
+}
+.card:hover{
+transform: scale(1.05);
+
+}
+.name:hover{
+
+  transform: scale(1.05);
+}
+.icon1:hover{
+
+   transform: scale(1.05);
+}
+.icon2:hover{
+
+   transform: scale(1.05);
+}
+.icon3:hover{
+
+   transform: scale(1.05);
+}
+.imgs:hover{
+
+   transform: scale(1.05);
+}
